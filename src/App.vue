@@ -33,7 +33,7 @@
           </div>
         </div>
 
-        <div style="margin-top: 100px;">
+        <div style="margin-top: 80px;">
           <rates-card @updatedRates="updateRates" :currencies="currencies" v-model="activeCurrency"></rates-card>
         </div>
       </div>
